@@ -98,7 +98,8 @@ export default function JobListPage() {
     
     useEffect(() => {
       filterJobs();
-    }, [locationFilter, salaryFilter, jobs, visibleJobCount, filterJobs]);
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [locationFilter, salaryFilter, jobs, visibleJobCount]);
   return (
     <main>
       <div className="container">
