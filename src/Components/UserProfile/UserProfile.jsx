@@ -21,6 +21,8 @@ export default function UserProfile({ user, setUser }) {
       case "hired":
         color = "job-hired";
         break;
+        default:
+      color = "job-default";
     }
     return color;
   };

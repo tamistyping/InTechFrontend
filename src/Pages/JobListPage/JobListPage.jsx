@@ -66,7 +66,7 @@ export default function JobListPage() {
 
   useEffect(() => {
     filterJobs();
-  }, [locationFilter, salaryFilter, jobs, visibleJobCount]);
+  }, [locationFilter, salaryFilter, jobs, visibleJobCount, filterJobs]);
 
   const filterJobs = () => {
     const filteredJobs = jobs.filter((job) => {
