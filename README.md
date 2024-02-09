@@ -21,7 +21,7 @@ Backend: Node.js, Express.js, MongoDB
 Authentication: JSON Web Tokens (JWT)
 Deployment: Netlify (Frontend/Backend), MongoDB Atlas (Database)
 
-<h1>Day 1: Planning</h1>
+<h1>Day 1</h1>
 
 #### Brainstorming and Conceptualization
 
@@ -58,4 +58,26 @@ Whilst teammates worked on creating pages and components in the frontend, I focu
 #### Git Collaboration
 
 In addition to backend setup, I also spent time assisting team members with Git-related tasks such as creating branches, pulling changes, and resolving merge conflicts.
+
+<h1>Day 2</h1>
+
+On the second day of development, we focused on enhancing the security of our application and ensuring the backend functionality was robust. Additionally, we made progress in setting up the frontend environment by installing relevant dependencies.
+
+## Backend Security
+
+To improve the security of our application, I implemented bcrypt for password hashing and JWT (JSON Web Tokens) for user authentication.
+
+## Backend Testing
+
+I tested the backend functionality by using Postman to send requests to the User endpoints. This allowed me to verify that the routes were properly configured and that I didn't mess things up!
+
+## Frontend Dependencies
+
+In parallel with backend security enhancements, we installed relevant dependencies on the frontend. These dependencies are essential for building the user interface and integrating with the backend API. By installing the necessary frontend libraries and tools, we prepared the frontend environment for further development.
+
+## Next Steps
+
+With backend security measures in place, backend functionality thoroughly tested, and frontend dependencies installed, we are ready to move forward with the implementation of core features and user interfaces. Day 2 was a productive day, laying the groundwork for the continued development of IntechJobs.
+
+Stay tuned for more updates as we progress through the development journey!
 
