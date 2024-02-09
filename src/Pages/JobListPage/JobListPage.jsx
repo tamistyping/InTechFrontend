@@ -64,41 +64,41 @@ export default function JobListPage() {
     setShowBackToTop(true);
   };
 
-  useEffect(() => {
-    filterJobs();
-  }, [locationFilter, salaryFilter, jobs, visibleJobCount, filterJobs]);
-
+  
   const filterJobs = () => {
     const filteredJobs = jobs.filter((job) => {
       const locationMatch = locationFilter
         ? job.location.area.some((area) =>
-            area.toLowerCase().includes(locationFilter.toLowerCase())
-          )
+        area.toLowerCase().includes(locationFilter.toLowerCase())
+        )
         : true;
-      const salaryMatch = salaryFilter
+        const salaryMatch = salaryFilter
         ? job.salary_min >= parseInt(salaryFilter)
         : true;
-      return locationMatch && salaryMatch;
-    });
-    setDisplayedJobs(filteredJobs.slice(0, visibleJobCount));
-  };
-
-  const handleFilterChange = (event) => {
-    const { id, value } = event.target;
-    if (id === "locationFilter") {
-      setLocationFilter(value);
-    } else if (id === "salaryFilter") {
-      setSalaryFilter(value);
-    }
-  };
-
-  const handleBackToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
-
+        return locationMatch && salaryMatch;
+      });
+      setDisplayedJobs(filteredJobs.slice(0, visibleJobCount));
+    };
+    
+    const handleFilterChange = (event) => {
+      const { id, value } = event.target;
+      if (id === "locationFilter") {
+        setLocationFilter(value);
+      } else if (id === "salaryFilter") {
+        setSalaryFilter(value);
+      }
+    };
+    
+    const handleBackToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    };
+    
+    useEffect(() => {
+      filterJobs();
+    }, [locationFilter, salaryFilter, jobs, visibleJobCount, filterJobs]);
   return (
     <main>
       <div className="container">
