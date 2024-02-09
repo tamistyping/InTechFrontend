@@ -15,6 +15,7 @@ Job Listings: Display of job listings with essential details such as job title, 
 User Authentication: Sign up, login, and be able to track your job application after saving a job to your profile.
 
 <h3>Technologies Used</h3>
+
 Frontend: React.js, HTML, CSS, JavaScript, Bootstrap
 Backend: Node.js, Express.js, MongoDB
 Authentication: JSON Web Tokens (JWT)
