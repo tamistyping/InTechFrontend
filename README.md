@@ -2,7 +2,7 @@
 inTech is a full-stack web application developed as part of a team project using the MERN stack. Our goal was to create a platform where Junior Developers can search and apply for Entry-Level job postings. With a team of three developers, we completed the project within a timeframe of five days. My responsibilties included both the front end and back end.
 </br>
 <h3>Live Link</h3>
-Explore the live version of IntechJobs here.
+Explore the live version of IntechJobs - https://intechjobs.netlify.app/
 
 <h3>Brief Overview</h3>
 Objective: Create a full-stack app using the MERN stack.
