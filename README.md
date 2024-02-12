@@ -135,5 +135,36 @@ I added some extra pages which can be seen in the NavBar which I'd be working on
 I spent the rest of the day fixing the filter bug... (it took me a whole day as I had to re-write both filter functions into one function).
 
 
+<h1>Day 5</h1>
+It's the final day, and we're putting the finishing touches on our project to ensure it's polished and ready for presentation!
+
+#### Team Collaboration: 
+We divided the tasks among the team members to make the entire website mobile-friendly. It was crucial to ensure that our platform was accessible and usable across different devices.
+
+#### Completion of CV Templates and About Us Page: 
+The previous evening, I wrapped up the CV Templates feature and finalized the About Us page. Users can now download their preferred CV template from the CV Templates page, adding more value to our platform.
+
+#### Mobile-Friendly Optimization: 
+Once the mobile-friendly adjustments were made, we conducted a thorough review of the entire website. Each part was meticulously tested to ensure smooth functionality and a seamless user experience on all devices. We were delighted with the outcome, seeing our efforts come together seamlessly.
+
+#### Final Tweaks: 
+With a few hours left before the presentation, I made some additional tweaks to further enhance the website:
+
+#### Devicon Addition: 
+I added a Devicon to the page to add visual appeal and enrich the user interface.
+#### Job Title Editing:
+To improve readability, I limited the job titles on the job cards to a maximum of three words, addressing lengthy titles that could potentially disrupt the layout.
+#### Data Import: 
+I fetched and imported the data from the API to the job detail page, ensuring users have access to comprehensive information about each job listing.
+#### Profile Section Enhancement: 
+In the profile section, where users can save jobs to their profile, I introduced a select option allowing users to categorize saved jobs as 'applied, interviewing, hired.' Each selection changes the background style of the saved job card, enhancing organization and user experience.
+With these final tweaks in place, our project was ready for presentation. We felt proud of our accomplishment and confident in the quality of our work.
+
+<img width="740" alt="Screenshot 2024-02-09 at 08 49 08" src="https://github.com/tamistyping/InTechFrontend/assets/114356636/24a22636-17f6-4e9f-9111-52af26cece8c">
+
+
+<h1>Improvements</h1>
+
+Something I really wanted to implement but didn't have time to was a dark mode/light mode option. Furthermore, I would've wanted to add more filters in!
 
 
