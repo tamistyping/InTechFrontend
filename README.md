@@ -163,8 +163,15 @@ With these final tweaks in place, our project was ready for presentation. We fel
 <img width="740" alt="Screenshot 2024-02-09 at 08 49 08" src="https://github.com/tamistyping/InTechFrontend/assets/114356636/24a22636-17f6-4e9f-9111-52af26cece8c">
 
 
-<h1>Improvements</h1>
+<h2>Improvements</h2>
 
-Something I really wanted to implement but didn't have time to was a dark mode/light mode option. Furthermore, I would've wanted to add more filters in!
+ - Something I really wanted to implement but didn't have time to was a dark mode/light mode option.
+ - I would've wanted to add more filters in as a job title filter would've been handy!
+ - Adding in a sort function where for example a user could sort jobs from highest paid to lowest paid.
+ - Allow users to change their password/username/email
+
+<h2>Wins</h2>
+- Developing the frontend with React not only enhanced the user interface but also strengthened my grasp on component-based architecture and state management, thanks to features like hooks and useContext.
+- Excellent planning! Before diving into the project, we conducted comprehensive research and analysis to understand its scope, requirements, and potential challenges. This groundwork laid a solid foundation for our planning efforts.
 
 
