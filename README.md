@@ -73,11 +73,26 @@ I tested the backend functionality by using Postman to send requests to the User
 
 ## Frontend Dependencies
 
-In parallel with backend security enhancements, we installed relevant dependencies on the frontend. These dependencies are essential for building the user interface and integrating with the backend API. By installing the necessary frontend libraries and tools, we prepared the frontend environment for further development.
+Once the backend was working, we installed relevant dependencies on the frontend. These dependencies are essential for building the user interface and integrating with the backend API. By installing the necessary frontend libraries and tools, we prepared the frontend environment for further development.
 
 ## Next Steps
 
-With backend security measures in place, backend functionality thoroughly tested, and frontend dependencies installed, we are ready to move forward with the implementation of core features and user interfaces. Day 2 was a productive day, laying the groundwork for the continued development of IntechJobs.
+With backend security measures in place, backend functionality thoroughly tested, and frontend dependencies installed, we were ready to move forward with the implementation of core features and user interfaces.
 
-Stay tuned for more updates as we progress through the development journey!
+<h1>Day 3</h1>
 
+
+<h1>Day 3</h1>
+Data Fetching and User Authorization
+On the third day of our project, our focus shifted towards integrating external data sources and enhancing user authentication functionalities. Here's a breakdown of the key tasks accomplished:
+
+<h4>Adzuna API Integration</h4>
+Data Retrieval: We successfully implemented functionality to fetch job listings from the Adzuna API. This involved sending requests to the API endpoints and processing the returned data to display relevant job opportunities within our platform.
+User Authorization Enhancement
+Authentication: I worked on enhancing the user authorization system, ensuring secure login and registration processes for IntechJobs users. This included implementing encryption methods to protect user credentials and setting up authentication middleware to validate user sessions.
+Submit Button Functionality
+Login Form Enhancement: Collaborating with my teammate who created the login form, I implemented functionality for the submit button. This included validation checks for user input and handling form submission events to authenticate users and grant access to the platform.
+Trello Board Update
+We maintained our Trello board to track the progress of tasks related to data fetching, user authorization, and form functionality:
+
+Overall, day 3 marked significant progress in enhancing IntechJobs' functionality by integrating external data sources and fortifying user authentication mechanisms.
