@@ -95,3 +95,45 @@ Trello Board Update
 We maintained our Trello board to track the progress of tasks related to data fetching, user authorization, and form functionality:
 
 Overall, day 3 marked significant progress in enhancing IntechJobs' functionality by integrating external data sources and fortifying user authentication mechanisms.
+
+<h1>Day 4</h1>
+
+## Bug Fixing and Data Refactoring
+I started the fourth day addressing a critical bug, refactoring data fetching processes, and implementing additional user interface enhancements.
+
+## Bug Fix: Persistent User Session
+Identification: My teammate identified a bug where users were being logged out after refreshing the page. This issue was traced back to the handling of authentication tokens.
+Debugging: Utilizing Chrome DevTools, I conducted thorough testing to analyze the behavior of authentication tokens across page refreshes, confirming the root cause of the bug.
+Resolution: I implemented a fix to ensure that user sessions remain persistent even after page refreshes, thus enhancing the overall user experience.
+## Data Fetching Refactoring
+I moved the data fetching from Adzuna logic from the job card component to the job list page, enabling easier data sharing across multiple components.
+## Pagination Implementation: 
+To improve performance and user experience, I implemented pagination by limiting the number of job cards displayed on the job list page and adding a "Load More" button for users to fetch additional listings as needed.
+## User Interface Enhancements
+Back to Top Button: I added a convenient "Back to Top" button to facilitate smoother navigation within the application, enhancing user accessibility and convenience (it scrolls smoothly to the top, I found it so satisfying to click).
+## Filter Functionality
+Location and Salary Filters: I implemented filters based on job location and salary range to allow users to refine their job search results.
+Bug Fix: During testing, I encountered a bug where both filters couldn't be applied simultaneously, leading to unexpected behavior. I left it to the next day...
+
+## This is how our page was looking so far.
+
+<img width="980" alt="Screenshot 2024-02-12 at 08 19 52" src="https://github.com/tamistyping/InTechFrontend/assets/114356636/d5044f07-3a47-420c-a4c4-c423ffc38ec5">
+
+
+<h1>Day 5</h1>
+
+Today was a productive day. I started off by giving our website a facelift, tweaking various CSS and Bootstrap elements to enhance the overall look and feel. After spending some time experimenting with CSS and getting inspiration from online examples, I managed to revamp the job list page to look more polished and professional. You can check out the updated look here 
+
+![Screenshot 2024-02-08 at 14 32 17](https://github.com/tamistyping/InTechFrontend/assets/114356636/1932b396-a10f-4fd3-89ba-e0ae8c544afa)
+
+I also took the opportunity to add some extra pages to the NavBar, expanding the website's functionality, which I planned to work on later in the evening.
+
+The highlight of the day was tackling the filter bug. It turned out to be quite a challenge and ended up taking the majority of my time. I had to completely rewrite both filter functions into a single, cohesive function to address the issue properly. But after some persistence and effort, I managed to iron out the bugs and ensure that the filters were working seamlessly. It was a satisfying end to the day, knowing that I had overcome a significant hurdle in our project development.
+
+I added some extra pages which can be seen in the NavBar which I'd be working on later in the evening.
+
+I spent the rest of the day fixing the filter bug... (it took me a whole day as I had to re-write both filter functions into one function).
+
+
+
+
